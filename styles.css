@@ -17,12 +17,14 @@ h1 {
 	text-align: center;
 }
 
-ul {
-	list-style-type: repeating-emoji;
+
+.ul-recipes {
+	list-style-type: repeating-heart-emoji;
 }
 
-@counter-style repeating-emoji {
+
+@counter-style repeating-heart-emoji {
 	system: cyclic;
-	symbols: "\1F46F";
+	symbols: "\1F498";
 	suffix: "";
 }
