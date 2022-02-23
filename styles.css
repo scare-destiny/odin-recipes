@@ -1,6 +1,28 @@
 /* styles.css */
 
 img {
+	margin: auto;
+	display: block;
 	height: auto;
 	width: 500px;
       }
+
+body {
+	background-color: rgb(255,182,193);
+	font-family: Monaco, Arial, Helvetica, sans-serif;
+	color:rgb(65, 65, 65);
+}
+
+h1 {
+	text-align: center;
+}
+
+ul {
+	list-style-type: repeating-emoji;
+}
+
+@counter-style repeating-emoji {
+	system: cyclic;
+	symbols: "\1F46F";
+	suffix: "";
+}
